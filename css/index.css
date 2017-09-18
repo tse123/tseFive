@@ -1,0 +1,1023 @@
+.allWrap {
+  display: none;
+}
+
+.navWrap {
+  width: 100%;
+  height: 40px;
+  background: #cac9c9 url("http://www.5lux.com/vendor/images/v30/navi_1pxbg.png") repeat-x;
+}
+
+.navWrap .nav {
+  height: 40px;
+  width: 1210px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav .navlist {
+  width: 950px;
+  height: 38px;
+  float: left;
+}
+
+.navlist > li {
+  float: left;
+  height: 38px;
+  line-height: 40px;
+  width: 82px;
+  text-align: center;
+}
+
+.navlist > li a {
+  color: #c8a985;
+}
+
+.navlist > li a:hover {
+  color: white;
+}
+
+.navlist .sortclass {
+  width: 130px;
+  background: #cf0101;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+.navlist .lilast {
+  width: 82px;
+  text-align: center;
+}
+
+.navlist .lilast a {
+  float: left;
+}
+
+.navlist .lilast a span {
+  float: left;
+  width: 19px;
+  height: 26px;
+  background: url(../img/share02.png) no-repeat -58px -176px;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+.navlist .lilast a:hover span {
+  background: url(../img/share02.png) no-repeat -366px -259px;
+}
+
+.nav .slidelist {
+  float: right;
+  height: 38px;
+}
+
+.nav .slidelist li {
+  width: 42px;
+  height: 38px;
+  float: left;
+  line-height: 38px;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.nav .slidelist li span {
+  float: left;
+  width: 28px;
+  height: 38px;
+  margin-right: 10px;
+}
+
+.slidelist .slideleft span {
+  background: url(../img/share02.png) no-repeat -238px -66px;
+}
+
+.slidelist .slidecenter span {
+  background: url(../img/share02.png) no-repeat -298px -66px;
+}
+
+.slidelist .slideright span {
+  background: url(../img/share02.png) no-repeat -356px -66px;
+}
+
+.selectbac {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  width: 130px;
+  height: 540px;
+  background: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  z-index: 100;
+  display: none;
+}
+
+.selectlist {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 130px;
+  height: 540px;
+  z-index: 100;
+}
+.selectlist li {
+  height: 36px;
+  color: #1c1a1a;
+  line-height: 36px;
+  text-align: center;
+  position: relative;
+}
+.selectlist li span {
+  float: right;
+  width: 8px;
+  height: 16px;
+  background: url(../img/share02.png) no-repeat -308px -41px;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  display: none;
+}
+.selectlist li:nth-of-type(1) {
+  background: url(../img/brand_category1.png) no-repeat -5px -1px;
+}
+.selectlist li:nth-of-type(2) {
+  background: url(../img/brand_category1.png) no-repeat -5px -34px;
+}
+.selectlist li:nth-of-type(3) {
+  background: url(../img/brand_category1.png) no-repeat -5px -66px;
+}
+.selectlist li:nth-of-type(4) {
+  background: url(../img/brand_category1.png) no-repeat -5px -98px;
+}
+.selectlist li:nth-of-type(5) {
+  background: url(../img/brand_category1.png) no-repeat -5px -130px;
+}
+.selectlist li:nth-of-type(6) {
+  background: url(../img/brand_category1.png) no-repeat -5px -162px;
+}
+.selectlist li:nth-of-type(7) {
+  background: url(../img/brand_category1.png) no-repeat -5px -194px;
+}
+.selectlist li:nth-of-type(8) {
+  background: url(../img/brand_category1.png) no-repeat -5px -226px;
+}
+.selectlist li:nth-of-type(9) {
+  background: url(../img/brand_category1.png) no-repeat -5px -258px;
+}
+.selectlist li:nth-of-type(10) {
+  background: url(../img/brand_category1.png) no-repeat -5px -290px;
+}
+.selectlist li:nth-of-type(11) {
+  background: url(../img/brand_category1.png) no-repeat -5px -322px;
+}
+.selectlist li:nth-of-type(12) {
+  background: url(../img/brand_category1.png) no-repeat -5px -355px;
+}
+.selectlist li:nth-of-type(13) {
+  background: url(../img/brand_category1.png) no-repeat -5px -388px;
+}
+.selectlist li:nth-of-type(14) {
+  background: url(../img/brand_category1.png) no-repeat -5px -420px;
+}
+.selectlist li:nth-of-type(15) {
+  background: url(../img/brand_category1.png) no-repeat -5px -456px;
+}
+.selectlist li:hover {
+  background-color: white;
+  background-image: url(../img/brand_category2.png);
+  color: #c69c6d;
+}
+.selectlist li:hover span {
+  display: block;
+}
+
+.picWrap {
+  width: 100%;
+  height: 520px;
+  position: relative;
+  overflow: hidden;
+}
+.picWrap .picbox {
+  height: 520px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.picWrap .picbox .imgbox {
+  float: left;
+  height: 520px;
+  position: relative;
+  overflow: hidden;
+}
+.picWrap .picbox .imgbox .bigpic {
+  width: 1440px;
+  height: 520px;
+  position: absolute;
+  top: 0px;
+}
+.picWrap .prev {
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  left: 100px;
+  top: 235px;
+  z-index: 80;
+  background: url(../img/templateleft.png);
+  cursor: pointer;
+}
+.picWrap .next {
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  right: 100px;
+  top: 235px;
+  z-index: 80;
+  background: url(../img/templateright.png);
+  cursor: pointer;
+}
+.picWrap .btnlist {
+  height: 16px;
+  position: absolute;
+  z-index: 80;
+  top: 460px;
+}
+.picWrap .btnlist li {
+  width: 14px;
+  height: 14px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 16px;
+  background: white;
+}
+
+.banner {
+  width: 1210px;
+  margin: 0 auto;
+}
+.banner .bannerbrand {
+  width: 100%;
+}
+.banner .bannerbrand h2 {
+  height: 120px;
+  width: 100%;
+}
+.banner .bannerbrand h2 img {
+  width: 100%;
+  height: 56px;
+  float: left;
+  margin-top: 32px;
+}
+.banner .bannerbrand .brandlist {
+  width: 100%;
+  height: 330px;
+}
+.banner .bannerbrand .brandlist li {
+  width: 234px;
+  height: 330px;
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.banner .bannerbrand .brandlist li .brandbac {
+  width: 100%;
+  height: 100%;
+}
+.banner .bannerbrand .brandlist li .brandbox {
+  width: 174px;
+  height: 165px;
+  background: white;
+  position: absolute;
+  left: 30px;
+  bottom: -110px;
+}
+.banner .bannerbrand .brandlist li .brandbox img {
+  display: block;
+  height: 30px;
+  margin: 10px auto 4px;
+}
+.banner .bannerbrand .brandlist li .brandbox .p1 {
+  width: 20px;
+  height: 2px;
+  background: black;
+  margin: 0 auto;
+}
+.banner .bannerbrand .brandlist li .brandbox .p2 {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.banner .bannerbrand .brandlist li .brandbox .p3 {
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+.banner .bannerbrand .brandlist li:nth-of-type(5) {
+  margin-right: 0;
+}
+.banner .bannerhot {
+  width: 1210px;
+  height: 238px;
+  position: relative;
+  overflow: hidden;
+}
+.banner .bannerhot h2 {
+  height: 60px;
+}
+.banner .bannerhot h2 img {
+  height: 60px;
+  float: left;
+}
+.banner .bannerhot h2 .hotbtn {
+  height: 60px;
+  float: right;
+}
+.banner .bannerhot h2 .hotbtn span {
+  float: left;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+}
+.banner .bannerhot .hotlistwrap {
+  width: 3630px;
+  height: 178px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+.banner .bannerhot .hotlistwrap ul {
+  width: 1210px;
+  height: 178px;
+  float: left;
+  overflow: hidden;
+}
+.banner .bannerhot .hotlistwrap ul li {
+  width: 165px;
+  height: 83px;
+  border: 1px solid #dfdfdf;
+  float: left;
+  margin-bottom: 8px;
+  margin-right: 6px;
+  position: relative;
+}
+.banner .bannerhot .hotlistwrap ul li .imgwrap {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.banner .bannerhot .hotlistwrap ul li .imgwrap img {
+  width: 108px;
+  vertical-align: middle;
+}
+.banner .bannerhot .hotlistwrap ul li .imgwrap span {
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
+.banner .bannerhot .hotlistwrap ul li .lefttop {
+  width: 0px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+.banner .bannerhot .hotlistwrap ul li .leftleft {
+  width: 1px;
+  height: 0px;
+  background: black;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+.banner .bannerhot .hotlistwrap ul li .rightright {
+  width: 1px;
+  height: 0px;
+  background: black;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}
+.banner .bannerhot .hotlistwrap ul li .rightbottom {
+  width: 0px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  bottom: -1px;
+  right: -1px;
+}
+.banner .bannerhot .hotlistwrap ul li .licover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+.banner .bannerhot .hotlistwrap ul li .p1 {
+  width: 100%;
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  margin-top: 20px;
+  text-align: center;
+}
+.banner .bannerhot .hotlistwrap ul li .p1 a {
+  color: #030000;
+}
+.banner .bannerhot .hotlistwrap ul li .p1 a:hover {
+  color: #c69c6d;
+}
+.banner .bannerhot .hotlistwrap ul li .p2 {
+  width: 20px;
+  height: 2px;
+  background: #030000;
+  margin-left: 73px;
+  float: left;
+}
+.banner .bannerhot .hotlistwrap ul li:nth-of-type(7) {
+  margin-right: 0;
+}
+.banner .bannerhot .hotlistwrap ul li:nth-of-type(14) {
+  margin-right: 0;
+}
+.banner .bannermall {
+  width: 1210px;
+}
+.banner .bannermall h2 {
+  width: 1210px;
+  height: 112px;
+}
+.banner .bannermall h2 img {
+  width: 100%;
+  height: 100%;
+}
+.banner .bannermall .mallmenu {
+  width: 1210px;
+  height: 30px;
+}
+.banner .bannermall .mallmenu li {
+  width: 398px;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  background: #999999;
+  color: white;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.banner .bannermall .mallmenu .lileft {
+  background: black;
+}
+.banner .bannermall .mallmenu .liright {
+  margin-right: 0;
+}
+.banner .bannermall .mallbox {
+  height: 517px;
+  width: 1210px;
+  margin-top: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.banner .bannermall .mallbox .malllist {
+  width: 3630px;
+  height: 517px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.banner .bannermall .mallbox .malllist .mallleft {
+  width: 1210px;
+  height: 517px;
+  float: left;
+  overflow: hidden;
+}
+.banner .bannermall .mallbox .malllist .mallleft .left {
+  width: 368px;
+  height: 517px;
+  overflow: hidden;
+  float: left;
+  margin-right: 9px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .left img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s;
+}
+.banner .bannermall .mallbox .malllist .mallleft .left img:hover {
+  transform: scale(1.1);
+}
+.banner .bannermall .mallbox .malllist .mallleft .right {
+  width: 833px;
+  height: 517px;
+  float: left;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop {
+  height: 258px;
+  width: 833px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop .div1 {
+  width: 222px;
+  height: 248px;
+  border: 1px solid #cccccc;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop .div1 div {
+  height: 72px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop .div1 div p {
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop .div1 img {
+  width: 150px;
+  position: absolute;
+  left: 36px;
+  top: 72px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop .div2 {
+  width: 367px;
+  height: 248px;
+  float: left;
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  position: relative;
+  margin: 0 7px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop .div2 div {
+  height: 72px;
+  width: 220px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop .div2 div p {
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .righttop .div2 img {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  top: 20px;
+  right: 20px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .rightbottoms {
+  width: 833px;
+  height: 259px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .rightbottoms .div3 {
+  width: 271px;
+  height: 255px;
+  float: left;
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  position: relative;
+  margin-right: 7px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .rightbottoms .div3 div {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .rightbottoms .div3 div p {
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .rightbottoms .div3 img {
+  position: absolute;
+  width: 150px;
+  top: 72px;
+  left: 60px;
+}
+.banner .bannermall .mallbox .malllist .mallleft .right .rightbottoms .nomargin {
+  margin-right: 0;
+}
+.banner .bannermall .mallbox .malllist .mallright {
+  width: 1210px;
+  height: 517px;
+  float: left;
+}
+.banner .bannermall .mallbox .malllist .mallright .picleft {
+  width: 400px;
+  height: 517px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.banner .bannermall .mallbox .malllist .mallright .picleft img {
+  width: 100%;
+  height: 100%;
+}
+.banner .bannermall .mallbox .malllist .mallright .picleft .mallpiccover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  transition: all 0.6s;
+  transform: rotateY(90deg);
+}
+.banner .bannermall .mallbox .malllist .mallright .picleft .mallpiccover .coverbox {
+  color: white;
+  width: 250px;
+  height: 130px;
+  border: 1px solid white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+.banner .bannermall .mallbox .malllist .mallright .picleft .mallpiccover .coverbox .p1 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+.banner .bannermall .mallbox .malllist .mallright .picleft .mallpiccover .coverbox .p3 {
+  width: 20px;
+  height: 2px;
+  background: white;
+  margin: 5px auto;
+}
+.banner .bannermall .mallbox .malllist .mallright .picleft .mallpiccover .coverbox .p4 {
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+.banner .bannermall .mallbox .malllist .mallright .picleft:hover .mallpiccover {
+  transform: rotateY(0deg);
+}
+.banner .bannermall .mallbox .malllist .mallright .picright {
+  width: 810px;
+  height: 517px;
+  float: left;
+  overflow: hidden;
+}
+.banner .bannermall .mallbox .malllist .mallright .picright .imgb {
+  width: 398px;
+  height: 255px;
+  float: left;
+  margin-left: 7px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.banner .bannermall .mallbox .malllist .mallright .picright .imgb img {
+  width: 100%;
+  height: 100%;
+}
+.banner .bannermall .mallbox .malllist .mallright .picright .imgb .mallpiccover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  transition: all 0.6s;
+  transform: rotateY(90deg);
+}
+.banner .bannermall .mallbox .malllist .mallright .picright .imgb .mallpiccover .coverbox {
+  color: white;
+  width: 250px;
+  height: 130px;
+  border: 1px solid white;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+.banner .bannermall .mallbox .malllist .mallright .picright .imgb .mallpiccover .coverbox .p1 {
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+.banner .bannermall .mallbox .malllist .mallright .picright .imgb .mallpiccover .coverbox .p3 {
+  width: 20px;
+  height: 2px;
+  background: white;
+  margin: 5px auto;
+}
+.banner .bannermall .mallbox .malllist .mallright .picright .imgb .mallpiccover .coverbox .p4 {
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+.banner .bannermall .mallbox .malllist .mallright .picright .imgb:hover .mallpiccover {
+  transform: rotateY(0deg);
+}
+.banner .shopcenter {
+  width: 1210px;
+}
+.banner .shopcenter h2 {
+  width: 1210px;
+  height: 120px;
+}
+.banner .shopcenter h2 img {
+  width: 100%;
+  height: 100%;
+}
+.banner .shopcenter .shopcenterlist {
+  width: 1210px;
+  height: 50px;
+}
+.banner .shopcenter .shopcenterlist li {
+  width: 234px;
+  height: 50px;
+  float: left;
+  overflow: hidden;
+  margin-right: 8px;
+  position: relative;
+  cursor: pointer;
+}
+.banner .shopcenter .shopcenterlist li .dswrap {
+  width: 234px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.banner .shopcenter .shopcenterlist li .dswrap .div1 {
+  background: #999999;
+  height: 50px;
+}
+.banner .shopcenter .shopcenterlist li .dswrap .div2 {
+  background: black;
+  height: 50px;
+}
+.banner .shopcenter .shopcenterlist li .dswrap .div2 p {
+  float: left;
+  width: 222px;
+  height: 38px;
+  border: 1px solid white;
+  line-height: 38px;
+  margin: 5px 0 0 5px;
+}
+.banner .shopcenterbox {
+  width: 1210px;
+  height: auto;
+}
+.banner .shopcenterbox .classicbags {
+  width: 1210px;
+  height: 432px;
+}
+.banner .shopcenterbox .classicbags h3 {
+  width: 1210px;
+  height: 60px;
+  float: left;
+}
+.banner .shopcenterbox .classicbags h3 img {
+  height: 60px;
+  float: left;
+}
+.banner .shopcenterbox .classicbags h3 span {
+  height: 60px;
+  line-height: 60px;
+  float: right;
+}
+.banner .shopcenterbox .classicbags .bagsmenu {
+  width: 238px;
+  height: 370px;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagmenulist {
+  width: 220px;
+  height: 192px;
+  margin: 5px auto 0;
+  overflow: hidden;
+  border-bottom: 1px dashed #d4d4d4;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagmenulist li {
+  width: 110px;
+  height: 35px;
+  line-height: 34px;
+  float: left;
+  font-size: 14px;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagmenulist li a {
+  color: #666666;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagmenulist li a:hover {
+  color: #c69c6d;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo {
+  width: 220px;
+  height: 172px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .bagslogolist {
+  width: 880px;
+  height: 112px;
+  position: absolute;
+  left: 0px;
+  top: 3px;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .bagslogolist li {
+  width: 110px;
+  height: 56px;
+  float: left;
+  overflow: hidden;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .bagslogolist li img {
+  width: 88px;
+  margin: 5px auto 0;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .btnbox {
+  width: 220px;
+  height: 57px;
+  font-size: 20px;
+  position: absolute;
+  top: 115px;
+  left: 0px;
+  overflow: hidden;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .btnbox .btnlist {
+  width: 60px;
+  height: 9px;
+  position: absolute;
+  left: 80px;
+  top: 28px;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .btnbox .btnlist li {
+  width: 9px;
+  height: 9px;
+  float: left;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #666666;
+  cursor: pointer;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .btnbox .btnlist li:nth-of-type(1) {
+  background: #c77f40;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .btnbox .prevleft {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 18px;
+  left: 60px;
+  cursor: pointer;
+}
+.banner .shopcenterbox .classicbags .bagsmenu .bagslogo .btnbox .nextright {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 18px;
+  right: 60px;
+  cursor: pointer;
+}
+.banner .shopcenterbox .classicbags .bagscenter {
+  width: 390px;
+  height: 370px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-left: 8px;
+  margin-right: 8px;
+  overflow: hidden;
+}
+.banner .shopcenterbox .classicbags .bagscenter img {
+  width: 100%;
+  height: 100%;
+}
+.banner .shopcenterbox .classicbags .bagsright {
+  width: 562px;
+  height: 370px;
+  float: left;
+  overflow: hidden;
+}
+.banner .shopcenterbox .classicbags .bagsright .bagbox {
+  width: 276px;
+  height: 180px;
+  border: 1px solid #CCCCCC;
+  float: left;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+.banner .shopcenterbox .classicbags .bagsright .bagbox img {
+  width: 100%;
+  height: 100%;
+}
+.banner .shopcenterbox .classicbags .bagsright .bagbox:nth-of-type(2) {
+  margin-right: 0;
+}
+.banner .shopcenterbox .classicbags .bagsright .bagbox:nth-of-type(4) {
+  margin-right: 0;
+}
+.banner .promotion {
+  width: 1210px;
+}
+.banner .promotion h2 {
+  width: 1210px;
+  height: 120px;
+}
+.banner .promotion .promotionbox1 {
+  width: 1210px;
+  height: 305px;
+  overflow: hidden;
+}
+.banner .promotion .promotionbox1 .div1 {
+  float: left;
+  width: 597px;
+  height: 293px;
+  margin-right: 12px;
+}
+.banner .promotion .promotionbox1 .div1 img {
+  width: 100%;
+  height: 100%;
+}
+.banner .promotion .promotionbox1 .div2 {
+  width: 292px;
+  height: 293px;
+  float: left;
+}
+.banner .promotion .promotionbox1 .div2 img {
+  width: 100%;
+  height: 100%;
+}
+.banner .promotion .promotionbox1 .mar {
+  margin-right: 12px;
+}
+.banner .promotion .promotionbox1 .dblmar {
+  margin: 0 12px;
+}
+.banner .promotion .promotionbox1 .nomar {
+  margin-right: 0;
+}
+.banner .promotion .promotionbox3 {
+  height: 196px;
+  width: 1210px;
+}
+.banner .promotion .promotionbox3 .promolist {
+  width: 612px;
+  height: 138px;
+  float: left;
+  overflow: hidden;
+}
+.banner .promotion .promotionbox3 .promolist li {
+  width: 192px;
+  height: 63px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-right: 9px;
+  margin-bottom: 8px;
+}
+.banner .promotion .promotionbox3 .promolist li img {
+  width: 100%;
+  height: 100%;
+}
+.banner .promotion .promotionbox3 .listrightbox {
+  width: 597px;
+  height: 138px;
+  float: left;
+}
+.banner .promotion .promotionbox3 .listrightbox img {
+  width: 100%;
+  height: 100%;
+}
+
+.footerWrap {
+  width: 100%;
+}

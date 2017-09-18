@@ -1,0 +1,148 @@
+.foot{
+    width:100%;
+    height:605px;
+    border-top:1px solid #c9c9c9;
+     background: url("http://img.5lux.com.cn/vendor/images/v30/footer_message_bg.jpg") no-repeat left bottom;
+    .changeours{
+        width:1210px;
+        height:116px;
+        border-bottom:1px solid #c9c9c9;
+        margin:0 auto;
+        ul{
+            width:1210px;
+            height:64px;
+            padding-top: 26px;
+            li{
+                width:242px;
+                height:64px;
+                float:left;
+                .p1{
+                    height:32px;
+                    line-height:38px;
+                    text-indent: 70px;
+                    color:black;
+                }
+                .p2{
+                    height:14px;
+                    line-height:14px;
+                    text-indent: 70px;
+                }
+            }
+            li:nth-of-type(1){
+                background: url("http://www.5lux.com/vendor/images/v30/footer_message01.jpg" ) no-repeat 0px 0px;
+            }
+            li:nth-of-type(2){
+                background: url("http://www.5lux.com/vendor/images/v30/footer_message02.jpg" ) no-repeat 0px 0px;
+            }
+            li:nth-of-type(3){
+                background: url("http://www.5lux.com/vendor/images/v30/footer_message03.jpg" ) no-repeat 0px 0px;
+            }
+            li:nth-of-type(4){
+                background: url("http://www.5lux.com/vendor/images/v30/footer_message04.jpg" ) no-repeat 0px 0px;
+            }
+            li:nth-of-type(5){
+                background: url("http://www.5lux.com/vendor/images/v30/footer_message05.jpg" ) no-repeat 0px 0px;
+            }
+        }
+    }
+    .allways{
+        width:1210px;
+        margin:0 auto;
+        height:285px;
+        ul{
+            width:184px;
+            float:left;
+            p{
+                height:64px;
+                line-height:64px;
+                font-weight: bold;
+                color:black;
+                text-indent: 14px;
+            }
+            li{
+                height:24px;
+                line-height:24px;
+                text-indent:14px;
+                a:hover{
+                    color:#c69c6d;
+                }
+            }
+            
+        }
+        .code{
+            float:left;
+            width:140px;
+            p{
+                height:64px;
+                line-height:64px;
+                font-weight: bold;
+                color:black;
+                text-indent: 14px;
+            }
+            img{
+                width:79px;
+               height:79px;
+               margin-left:14px;
+            }
+        }
+    }
+    .footerinfo{
+        height:200px;
+        width:1210px;
+        margin:0 auto;
+        .infolist1{
+            height:64px;
+            width:370px;
+            margin:0 auto;
+            li{
+                height:12px;
+                line-height:12px;
+                padding: 0 9px;
+                float:left;
+                margin-top:26px;
+                border-right:2px solid white;
+               
+                a{
+                    color:white;
+                    font-weight:bold;
+                }
+            }
+             .noborder{
+                    border-right:0;
+                }
+        }
+        .infolist2{
+            height:26px;
+            width:816px;
+            margin:0 auto;
+            li{
+                float:left;
+                height:12px;
+                line-height:12px;
+                border-right:2px solid white;
+                margin-top:7px;
+                padding:0 9px;
+                a{
+                    color:white;
+                }
+            }
+            .noborder{
+                border-right:0;
+            }
+        }
+        .div1{
+            height:26px;
+            line-height:26px;
+            text-align: center;
+            color:white;
+            font-weight:bold;
+        }
+        .div2{
+            text-align: center;
+            padding-top:20px;
+            img{
+                margin:0 2px;
+            }
+        }
+    }
+}

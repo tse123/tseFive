@@ -1,0 +1,296 @@
+.wrapHeader{
+	width:100%;
+	height:37px;
+	background:#f2f2f2;
+}
+.wrapHeader .header{
+	width:1210px;
+	height:37px;
+	margin:0 auto;
+}
+.header .headerLeft{
+	float:left;
+	height:37px;
+}
+.headerLeft p{
+	float:left; 
+	height:37px;
+	line-height:36px;
+	overflow: hidden;
+}
+.headerLeft .p1{
+	background:url(../img/home.png) no-repeat 0px 11px;
+}
+.headerLeft p a{
+	float:left;
+	border-right:1px solid gray;
+	height:12px;
+	line-height:12px;
+	text-align: center;
+	margin-top:12px;
+	padding:0 20px;
+	
+}
+.headerLeft p a:hover{
+	color:#c69c6d;
+}
+.headerLeft .p2{
+	padding-left:14px;
+}
+/*右边菜单栏*/
+.headerRight{
+	float: right;
+	height:37px;
+}
+.menuList{
+	height:37px;
+	float:left;
+}
+.menuList>li{
+	float:left;
+	height:37px;
+	position: relative;
+}
+.menuList>li>div{
+	float:left;
+	height:12px;
+	line-height:12px;
+	text-align: center;
+	padding:0 20px;
+	margin-top:12px;
+	border-right:1px solid #dfdfdf;
+	position: relative;
+}
+.menuList>li>div a{
+	float:left;
+}
+.menuList>li>div a:hover{
+	color:#c69c6d;
+}
+.menuList  .lilogin a:hover{
+	color:#cc0000;
+}
+.menuList .register{
+	padding-left: 20px;
+}
+.menuList .register a:hover{
+	color:#c69c6d;
+}
+.menuList .register img{
+	position: absolute;
+	left:0px;
+	top:-3px;
+}
+.menuList .tip .trigona{
+	width:0px;
+	height:0px;
+	border:5px solid transparent;
+	border-top:5px solid #666666;
+	float:left;
+	margin-left:2px;
+	margin-top:3px;
+}
+.menuList .myfive{
+	border:1px solid #F2F2F2;
+	border-bottom: 0;
+}
+.menuList .myfive ul{
+	width:100%;
+	position: absolute;
+	top:37px;
+	left:-1px;
+	background: white;
+	border:1px solid #dfdfdf;
+	border-top:0;
+	display: none;
+	z-index:100;
+}
+.myfive ul li{
+	height:30px;
+	text-align: center;
+	line-height:30px;
+}
+.myfive a:hover{
+	color:#cc0000;
+} 
+.noborder .tip{
+	border-right:0;
+}
+.noborder .tip span{
+	width:32px;
+	height:14px;
+	float:left;
+	margin-left:5px;
+	background: url(../img/brandstore_share.png) no-repeat -288px -378px;
+}
+.noborder:hover .tip span{
+	background: url(../img/brandstore_share.png) no-repeat -288px -413px;
+}
+.noborder:hover .tip a{
+	color:#c69c6d;
+}
+.headerRight>.menuList>.noborder .loadimg{
+	width:100%;
+	position: absolute;
+	left:-1px;
+	top:37px;
+	background:white;
+	border:1px solid #f2f2f2;
+	border-top:0;
+	height:170px;
+	padding: 0;
+	margin-top:0px;
+	padding-top:0;
+	display:none;
+	z-index:120;
+}
+.loadimg .p1{
+	text-align: center;
+	line-height:20px;
+	font-size:14px;
+}
+.loadimg .p2{
+	height:20px;
+	line-height:20px;
+}
+.loadimg .p2 span{
+	font-size:14px;
+	color:#cc0000;
+}
+/*搜索区开始*/
+.searchWrap{
+	width:100%;
+	height:110px;
+}
+.searchWrap .searchBox{
+	width:1210px;
+	height:110px;
+	margin:0 auto;
+}
+.searchBox .logo{
+	width:485px;
+	height:110px;
+	float:left;
+}
+.searchBox .logo img{
+	float:left;
+}
+.searchBox .logo .img2{
+	margin-left:50px;
+	margin-top:13px;
+}
+.searchBox .search{
+	float:left;
+	width:388px;
+	height:75px;
+	margin-top:35px;
+}
+.search .searchDiv{
+	width:388px;
+	height:38px;
+	position: relative;
+}
+.searchDiv .inp{
+	width:304px;
+	height:34px;
+	float:left;
+	border:2px solid #c69c6d;
+	text-indent:14px;
+}
+.searchDiv .sear{
+	width:80px;
+	height:38px;
+	float:left;
+	line-height:38px;
+	text-align: center;
+	color:white;
+	background:#c69c6d;
+	font-size:14px;
+	cursor:pointer;
+	letter-spacing: 2px;
+}
+.searchDiv .selectbox{
+	width:304px;
+	position: absolute;
+	left:0px;
+	top:38px;
+	border:1px solid #DFDFDF;
+	border-top:0;
+	z-index:100;
+	background: white;
+}
+.selectbox ul{
+	width:100%;
+	height:100%;
+}
+.selectbox ul li{
+	height:24px;
+	line-height:24px;
+	text-indent:12px;
+}
+.selectbox ul li:hover{
+	background:#c69c6d;
+	color:white;
+}
+.search .searchlist{
+	height:28px;
+	float:left;
+	line-height:28px;
+}
+.search .searchlist li{
+	float:left;
+	padding:0 11px;
+}
+.searchlist li a:hover{
+	color:#cc0000;
+}
+/*购物车结算块*/
+.shopdiv{
+	width:138px;
+	height:33px;
+	float:right;
+	margin-top:35px;
+	margin-right:7px;
+	border:1px solid #cccccc;
+	box-shadow:0px 0px 2px lightgray;
+	position: relative;
+}
+.shopdiv .divtop{
+	width:100%;
+	height:100%;
+	background:white url(http://www.5lux.com/vendor/images/v30/v30cart.png) no-repeat 5px 2px;
+	text-indent:40px;
+	line-height:32px;
+	position: absolute;
+	left:0px;
+	top:0px;
+	z-index:90;
+	
+}
+.divtop .goodsNum{
+	color:#d00000;
+}
+.divtop .span2{
+	margin-left:20px;
+	font-weight:bold;
+}
+.shopdiv .shopgoods{
+	position: absolute;
+	top:32px;
+	right:-1px;
+	width:300px;
+	border:1px solid #cccccc;
+	box-shadow:0px 0px 2px lightgray;
+	z-index:80;
+	display:none;
+	/*border-top:0;*/
+}
+.shopgoods .ptip{
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	background: white;
+}
+.shopgoods .ptip1{
+	padding-top:10px;
+}
