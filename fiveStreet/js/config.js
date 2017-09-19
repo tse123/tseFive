@@ -6,6 +6,9 @@ requirejs.config({
 		"commonheader":"commonheader",
 		"commonfooter":"commonfooter",
 		"index":"index",
-		"register":"register"
+		"register":"register",
+		"login":"login",
+		"detailpages":"detailpages",
+		"returnId":"returnId"
 	}
 });

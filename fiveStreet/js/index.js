@@ -1,6 +1,6 @@
 require(["config"],function(){
 	//写出页面所需要的所有模块，不用考虑顺序问题
-	require(["jquery","common","commonheader","commonfooter"],function($,co,cohead,cofoot){
+	require(["jquery","common","returnId","commonheader","commonfooter"],function($,co,returnId,cohead,cofoot){
 		$(window).load(function(){
 //			添加公共头部
 			$.ajax({
@@ -138,6 +138,11 @@ require(["config"],function(){
 			});
 			//			图片懒加载功能块
 			co.layout(".img-lay");
+			$(".goods").on("click",function(){
+				var idstr=$(this).attr("id");
+				console.log(idstr);
+				co.Cookie.set("goodsid",idstr,"30","/");
+			});
 		});
 	});
 });

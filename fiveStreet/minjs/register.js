@@ -3,8 +3,16 @@
 require(["config"], function () {
 	require(["jquery", "common"], function ($, co) {
 		$(window).load(function () {
+			$.ajax({
+				type: "get",
+				url: "commonfooter.html",
+				async: true,
+				success: function success(data) {
+					$(".alertfoot").html(data);
+				}
+			});
 			var part = {
-				userreg: /[\u2E80-\u9FFF0-9a-zA-Z\-\_]{4,20}/,
+				userreg: /[\u2E80-\u9FFF0-9a-zA-Z\-\_]{6,12}/,
 				phonereg: /^[1]{1}[3|5|7|8]{1}[0-9]{9}/
 			};
 			var codeArr = [{
@@ -87,7 +95,24 @@ require(["config"], function () {
 					$(".numwarn").show();
 				}
 			});
-			//				随机产生一个验证码,且对应正确才可
+			//			密码框验证事件
+			$(".passw .passwval").on("blur", function () {
+				var $this = $(this);
+				if (part.userreg.test($this.val())) {
+					$(".paswarn").hide();
+				} else {
+					$(".paswarn").show();
+				}
+			});
+			//			确认密码框验证
+			$(".surepassw .surepasswval").on("blur", function () {
+				if ($(this).val() == $(".passw .passwval").val()) {
+					$(".surepaswarn").hide();
+				} else {
+					$(".surepaswarn").show();
+				}
+			});
+			//			随机产生一个验证码,且对应正确才可
 			createCode();
 			//			随机验证码函数
 			function createCode() {

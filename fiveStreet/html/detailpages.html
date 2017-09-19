@@ -2,8 +2,172 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>商品详情页</title>
+		<link rel="stylesheet" type="text/css" href="../css/commonheader.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/detailpages.css"/>
 	</head>
+	<script data-main="../js/detailpages.js" src="../js/require.js" type="text/javascript" charset="utf-8"></script>
 	<body>
+		<!--用于存放公共头部-->
+		<div class="commonh"></div>
+		<!--主体部分开始-->
+		<!--菜单开始-->
+		<div class="navbac">
+		<div class="navWrap">
+				<div class="nav">
+					<ul class="navlist">
+						<li class="sortclass">商品分类
+							<!--用于兼容背景透明-->
+							<div class="selectbac"></div>
+							<ul class="selectlist">
+								<li>推荐品牌<span></span></li>
+								<li>箱包<span></span></li>
+								<li>美妆<span></span></li>
+								<li>服装<span></span></li>
+								<li>腕表<span></span></li>
+								<li>配饰<span></span></li>
+								<li>鞋靴<span></span></li>
+								<li>母婴<span></span></li>
+								<li>美酒<span></span></li>
+								<li>美食<span></span></li>
+								<li>家居<span></span></li>
+								<li>电子<span></span></li>
+								<li>办公<span></span></li>
+								<li>礼品<span></span></li>
+								<li>海外馆<span></span></li>
+							</ul>
+						</li>
+						<li><a href="#">品牌</a></li>
+						<li><a href="#">最新</a></li>
+						<li><a href="#">女士</a></li>
+						<li><a href="#">男士</a></li>
+						<li><a href="#">生活馆</a></li>
+						<li><a href="#">海外馆</a></li>
+						<li><a href="#">时尚</a></li>
+						<li><a href="#">特惠</a></li>
+						<li><a href="#">礼品区</a></li>
+						<li class="lilast"><a href="#"><span></span>到店</a></li>
+					</ul>
+					<ul class="slidelist">
+						<li class="slideleft"><span></span>品牌授权，官方验真</li>
+						<li class="slidecenter"><span></span>尊享品牌会员服务</li>
+						<li class="slideright"><span></span>商务部诚信示范企业</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		<!--菜单结束-->
+		<div class="banner">
+			<div class="shopinfo">
+				<div class="shopinfoleft">
+					<div class="macleft"><img src="../img/good_load.gif" /><div class="drag"></div></div>
+					<!--放大镜-->
+					<div class="macright"><img src="../img/good_load.gif" style="position: absolute;" /></div>
+					<ul class="piclist">
+						
+						<div class="picwrap">
+							<div class="divslide">
+							</div>
+						</div>
+						
+						<span class="spanleft"><</span>
+						<span class="spanright">></span>
+					</ul>
+				</div>
+				<!--右侧信息-->
+				<div class="shopinforight">
+					<div class="goodsname"></div>
+					<div class="goodsnametip"></div>
+					<div class="goodshuohao">货号:<span></span></div>
+					<div class="goodsprice">
+						<span class="price1">￥ <span></span></span>
+						<span class="price2">￥ <span></span></span>
+						<span class="joinpart">红卡会员价</span>
+					</div>
+					<div class="activs"><span class="spanleft">活动</span><span class="span2">订单满9999元送价值1199元时尚管家服务</span></div>
+					<div class="goodssize">
+						<span class="spanleft"></span>
+						<ul class="sizelist">
+							<!--<li>35</li>
+							<li>36.5</li>
+							<li>37.5</li>-->
+						</ul>
+					</div>
+					<div class="goodscolor">
+						<span class="spanleft"></span>
+						<ul class="colorlist"></ul>
+					</div>
+					<div class="goodsnum">
+						<span class="spanleft">数量:</span>
+						<div class="numbox"><span class="numminus">-</span><input type="text" class="mygoodsnum" value="1"/><span class="numadd">+</span></div>
+					</div>
+					<div class="sendplace">
+						<p><span class="span1">发货门店</span><span class="span2">此货品将由<a class="sendstore" href="#"></a>为您发货</span></p>
+						<p><span class="span1">发货地</span><span class="span2">纽约直发</span></p>
+						<p><span class="span1">发货时效</span><span class="span2">预计6-15个工作日发货，延迟发货慢必赔！查看详情 》</span></p>
+						<p><span class="span1">温馨提示</span><span class="span2">本商品 有质量问题支持7天退换货</span></p>
+						<p><span class="span1">包邮政策</span><span class="span2">白金钻石顺丰包邮，注册用户满99元免邮</span></p>
+					</div>
+					<div class="buycli">
+						<div class="buy">立即购买</div>
+						<div class="joinshopcar">加入购物车</div>
+					</div>
+					<div class="bussinesstip">
+						<p class="p1">100%正品保障</p>
+						<p class="p2">商务部诚信企业</p>
+						<p class="p3">无忧售后保障</p>
+					</div>
+				</div>
+				<!--分享收藏-->
+				<div class="shareinfo">
+					<p class="pshare"><span></span>分享</p>
+					<p class="pshoucang"><span></span>收藏(已有<i></i>人收藏)</p>
+				</div>
+			</div>
+			<!--商品详情大图及推荐菜单等-->
+			<div class="productDescrip">
+				<div class="decripLeft">
+					<h3>bababa集合店</h3>
+					<ul class="hotrange">
+						<p class="ptip">热销排行</p>
+						
+					</ul>
+					<!--同品牌推荐-->
+					<ul class="sameBrand">
+						<p class="ptip">同品牌推荐</p>
+						<li>
+							<p class="linum"></p>
+							<div class="picbox"><img src="http://img550.5lux.com.cn/2017/04/26/ef/149319058836_800x800_200x200.jpg" /></div>
+							<p class="pdesrip">
+								棕色马皮dgshshshsgssg棕色马皮dgshshshsgssg
+							</p>
+							<p class="pprice">￥<span>9800</span></p>
+						</li>
+					</ul>
+				</div>
+				<!--详情右边所有情况-->
+				<div class="descripRight">
+					<h3>商品详情</h3>
+					<div class="rightToppic">
+						<div class="div1"><img src="http://img550.5lux.com.cn/2016/12/08/ab/148117780617_1440x520.jpg" /></div>
+						<div class="div2"><img src="http://img550.5lux.com.cn/2016/12/08/ab/148117780617_1440x520.jpg" /></div>
+						<div class="div3"><img src="http://img550.5lux.com.cn/2016/12/08/ab/148117780617_1440x520.jpg" /></div>
+					</div>
+					<div class="brandStory">
+						<img src="http://img550.5lux.com.cn/2017/08/14/rs/150269667054_400x244.jpg" />
+						<div>
+							<p class="p1">菲格拉慕</p>
+							<p class="p2">
+								PRADA可谓奢侈品，在其近百年的发展历程中，致力于创造兼有经典色彩和创新精神的时尚理念，且对每件出品都追求完美 1913年，意大利人Mario Prada创立了Prada，以设计制作和售卖手袋、行李箱、短裤和鞋履为主。由Prada八十年代推出的降落伞背囊开始，到九十年代诞生的二线系列Miu Miu，再到近期成形的Prada Sport 所有PRADA集团麾下的产品的加工生产都是由意大利Tuscany地区的Prada Spa管辖，这地区被公认为拥有皮具和鞋类生产工艺和技术。对于批量生产， PRADA对产品高质量的要求丝毫没有松懈，对品质永不妥协的观点已成为PRADA的企业理念。
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--商品详情推荐大图等结束-->
+		</div>
+		<!--主体部分结束-->
+		<!--用于存放公共尾部-->
+		<div class="commonf"></div>
 	</body>
 </html>

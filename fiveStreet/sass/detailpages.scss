@@ -1,0 +1,730 @@
+@import "common";
+@import "commonfooter";
+.navbac{
+    width:100%;
+    background: #151415;
+}
+.nav{
+    height: 40px;
+    width: 1210px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.nav .navlist{
+    width:950px;
+    height:38px;
+    float:left;
+}
+.navlist>li{
+    float:left;
+    height:38px;
+    line-height:40px;
+    width:82px;
+    text-align: center;
+}
+.navlist>li a{
+    color:#c8a985;
+}
+.navlist>li a:hover{
+    color:white;
+}
+.navlist .sortclass{
+    width:130px;
+    background: #cf0101;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+    position: relative;
+}
+.navlist .lilast{
+    width:82px;
+    text-align: center;
+}
+.navlist .lilast a{
+    float:left;
+}
+.navlist .lilast a span{
+    float:left;
+    width:19px;
+    height:26px;
+    background: url(../img/share02.png) no-repeat -58px -176px;
+    margin-left:10px;
+    margin-top:7px;
+    margin-right:5px;
+}
+.navlist .lilast a:hover span{
+    background: url(../img/share02.png) no-repeat -366px -259px;
+}
+.nav .slidelist{
+    float:right;
+    height:38px;
+}
+.nav .slidelist li{
+    width:42px;
+    height:38px;
+    float:left;
+    line-height:38px;
+    color:white;
+    overflow: hidden;
+    cursor:pointer;
+}
+.nav .slidelist li span{
+    float:left;
+    width:28px;
+    height:38px;
+    margin-right:10px;
+}
+.slidelist .slideleft span{
+    background: url(../img/share02.png) no-repeat -238px -66px;
+}
+.slidelist .slidecenter span{
+    background: url(../img/share02.png) no-repeat -298px -66px;
+}
+.slidelist .slideright span{
+    background: url(../img/share02.png) no-repeat -356px -66px;
+}
+$abso:absolute;
+$selectW:130px;
+$selectH:540px;
+.selectbac{
+    position: $abso;
+    left:0px;
+    top:40px;
+    width:$selectW;
+    height:$selectH;
+    background: white;
+    opacity:0.8;
+    filter:alpha(opacity=80);
+    z-index:100;
+    display:none;
+}
+.selectlist{
+    display:none;
+    position: $abso;
+    left:0;
+    top:40px;
+    width:$selectW;
+    height:$selectH;
+    z-index:100;
+    li{
+        height:36px;
+        color:#1c1a1a;
+        line-height:36px;
+        text-align: center;
+        position: relative;
+        span{
+            float:right;
+            width:8px;
+            height:16px;
+            background: url(../img/share02.png) no-repeat -308px -41px;
+            position: $abso;
+            top:11px;
+            right:11px;
+            display:none;
+        }
+    }
+    li:nth-of-type(1){
+        background: url(../img/brand_category1.png) no-repeat -5px -1px;
+    }
+    li:nth-of-type(2){
+        background: url(../img/brand_category1.png) no-repeat -5px -34px;
+    }
+     li:nth-of-type(3){
+        background: url(../img/brand_category1.png) no-repeat -5px -66px;
+    }
+    li:nth-of-type(4){
+        background: url(../img/brand_category1.png) no-repeat -5px -98px;
+    }
+     li:nth-of-type(5){
+        background: url(../img/brand_category1.png) no-repeat -5px -130px;
+    }
+    li:nth-of-type(6){
+        background: url(../img/brand_category1.png) no-repeat -5px -162px;
+    }
+     li:nth-of-type(7){
+        background: url(../img/brand_category1.png) no-repeat -5px -194px;
+    }
+    li:nth-of-type(8){
+        background: url(../img/brand_category1.png) no-repeat -5px -226px;
+    }
+     li:nth-of-type(9){
+        background: url(../img/brand_category1.png) no-repeat -5px -258px;
+    }
+    li:nth-of-type(10){
+        background: url(../img/brand_category1.png) no-repeat -5px -290px;
+    }
+     li:nth-of-type(11){
+        background: url(../img/brand_category1.png) no-repeat -5px -322px;
+    }
+    li:nth-of-type(12){
+        background: url(../img/brand_category1.png) no-repeat -5px -355px;
+    }
+     li:nth-of-type(13){
+        background: url(../img/brand_category1.png) no-repeat -5px -388px;
+    }
+    li:nth-of-type(14){
+        background: url(../img/brand_category1.png) no-repeat -5px -420px;
+    }
+     li:nth-of-type(15){
+        background: url(../img/brand_category1.png) no-repeat -5px -456px;
+    }
+   li:hover{
+       background-color:white;
+       background-image: url(../img/brand_category2.png) ;
+       color:#c69c6d;
+       span{
+           display:block;
+       }
+   }
+}
+.banner{
+    width:1100px;
+    height:auto;
+    padding-bottom: 30px;
+    margin:0 auto;
+    .shopinfo{
+        width:1100px;
+        height:640px;
+        .shopinfoleft{
+            width:540px;
+            height:640px;
+            float:left;
+            position: relative;
+            .macleft{
+                width:480px;
+                height:480px;
+                position: absolute;
+                left:0px;
+                top:10px;
+                border:1px solid #CCCCCC;
+                cursor:crosshair;
+                .drag{
+                    width:120px;
+                    height:120px;
+                    position: absolute;
+                    left:0px;
+                    top:0px;
+                    box-shadow: 0px 0px 4px black;
+                    display:none;
+                }
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .macright{
+                width:0px;
+                height:0px;
+                border:1px solid #CCCCCC;
+                box-shadow: 0px 0px 5px #000;
+                position: absolute;
+                left:245px;
+                top:245px;
+                overflow: hidden;
+                z-index:100;
+                
+                img{
+                    width:480px;
+                    height:480px;
+                    position: absolute;
+                    left:0px;
+                    top:0px;
+                }
+            }
+            .piclist{
+                width:480px;
+                height:85px;
+                
+                position: absolute;
+                top:520px;
+                left:0px;
+                .picwrap{
+                    width:460px;
+                    overflow: hidden;
+                    height:85px;
+                    position: absolute;
+                    top:0px;
+                    left:10px;
+                    .divslide{
+                        width:1500px;
+                        height:85px;
+                        position: absolute;
+                        left:0px;
+                        top:0px;
+                        li{
+                            width:83px;
+                            height:83px;
+                            border:1px solid #CCCCCC;
+                            float:left;
+                            margin-right:9px;
+                            img{
+                                width:100%;
+                                height:100%;
+                            }
+                        }
+                    }
+                }
+                .spanleft{
+                    float:left;
+                    width:10px;
+                    height:85px;
+                    text-align: center;
+                    line-height: 84px;
+                    background: #f2f2f2;
+                    color:#838383;
+                    cursor: pointer;
+                }
+                .spanright{
+                    float:right;
+                    width:10px;
+                    height:85px;
+                    text-align: center;
+                    line-height: 84px;
+                    background: #f2f2f2;
+                    color:#838383;
+                    cursor: pointer;
+                }
+            }
+        }
+        .shopinforight{
+            float:left;
+            width:560px;
+            height:640px;
+            margin-top:10px;
+            .goodsname{
+                height:28px;
+                line-height:28px;
+                font-size:18px;
+                color:#a59999;
+            }
+            .goodsnametip{
+                height:28px;
+                line-height:28px;
+                font-size:16px;
+                color:#000000;
+            }
+            .goodshuohao{
+                height:28px;
+                line-height:28px;
+                font-size:12px;
+                color:#999999;
+                border-bottom: 1px dashed #bfbfbf;
+            }
+            .goodsprice{  
+                height:64px;
+                border-bottom: 1px dashed #bfbfbf;
+                .price1{
+                    float:left;
+                    line-height:56px;
+                    font-size:20px;
+                    color:#c8a985;
+                }
+                .price2{
+                    float:left;
+                    line-height:60px;
+                    font-size:12px;
+                    color:#999999;
+                    margin-left:10px;
+                    text-decoration: line-through;
+                }
+                .joinpart{
+                    float:left;
+                    width:80px;
+                    height:20px;
+                    font-size:12px;
+                    color:white;
+                    text-align: center;
+                    line-height:20px;
+                    background: #c8a985;
+                    border-radius:10px;
+                    margin-left:10px;
+                    margin-top:18px;
+                }
+            }
+            .activs{
+                height:35px;
+                border-bottom: 1px dashed #bfbfbf;
+                line-height:34px;
+                .spanleft{
+                    float:left;
+                    width:92px;
+                    color:black;
+                    font-weight: bold;
+                    text-indent:14px;
+                }
+                .span2{
+                    float:left;
+                    color:#c8a985;
+                }
+            }
+            .goodssize{
+                height:60px;
+                overflow: hidden;
+                .spanleft{
+                    float:left;
+                    height:60px;
+                    line-height:60px;
+                    width:92px;
+                    color:black;
+                    font-weight: bold;
+                    text-indent:14px;
+                }
+                .sizelist{
+                    height:32px;
+                    float:left;
+                    margin-top:14px;
+                    li{
+                        width:32px;
+                        height:30px;
+                        float:left;
+                        line-height:30px;
+                        text-align: center;
+                        border:1px solid #CCCCCC;
+                        margin-right:8px;
+                    }
+                }
+            }
+            .goodscolor{
+                height:60px;
+                overflow: hidden;
+                .spanleft{
+                    float:left;
+                    height:60px;
+                    line-height:60px;
+                    width:92px;
+                    color:black;
+                    font-weight: bold;
+                    text-indent:14px;
+                }
+                .colorlist{
+                    height:32px;
+                    float:left;
+                    margin-top:14px;
+                    li{
+                        width:60px;
+                        height:30px;
+                        float:left;
+                        line-height:30px;
+                        text-align: center;
+                        border:1px solid #CCCCCC;
+                        margin-right:8px;
+                    }
+                }
+            }
+            .goodsnum{
+                height:60px;
+                border-bottom: 1px dashed #bfbfbf;
+                .spanleft{
+                    float:left;
+                    height:60px;
+                    line-height:60px;
+                    width:92px;
+                    color:black;
+                    font-weight: bold;
+                    text-indent:14px;
+                }
+                .numbox{
+                    width:96px;
+                    height:22px;
+                    float:left;
+                    margin-top:19px;
+                    .numminus{
+                        float:left;
+                        width:22px;
+                        height:22px;
+                        line-height:22px;
+                        text-align: center;
+                        color:white;
+                        cursor:pointer;
+                        background: #c8a985;
+                     
+                    }
+                    .mygoodsnum{
+                        float:left;
+                        width:44px;
+                        height:20px;
+                        border:1px solid #CCCCCC;
+                        line-height:20px;
+                        text-align: center;
+                        margin-left:2px;
+                        margin-right:2px;
+                    }
+                    .numadd{
+                        float:left;
+                        width:22px;
+                        height:22px;
+                        line-height:22px;
+                        text-align: center;
+                        color:white;
+                        cursor:pointer;
+                        background: #c8a985;
+                    }
+                }
+               
+            }
+            .sendplace{
+                    p{
+                        height:24px;
+                        line-height:24px;
+                        color:#999999;
+                        .span1{
+                            float:left;
+                            width:92px;
+                            text-indent:14px;
+                            height:24px;
+                            line-height:24px;
+                        }
+                        .span2{
+                            float:left;
+                            height:24px;
+                            line-height:24px;
+                            a{
+                                text-decoration: underline;
+                                color:#c8a985;
+                            }
+                        }
+                    }
+                }
+                .buycli{
+                    height:80px;
+                    .buy{
+                        width:118px;
+                        height:33px;
+                        border:1px solid #c8a985;
+                        text-align: center;
+                        line-height:32px;
+                        color:#c8a985;
+                        float:left;
+                        margin-right:10px;
+                        margin-top:13px;
+                        cursor:pointer;
+                        margin-left:14px;
+                    }
+                    .joinshopcar{
+                         width:120px;
+                        height:35px;
+                        background: #c8a985;
+                        text-align: center;
+                        line-height:34px;
+                        color:white;
+                        float:left;
+                        margin-top:13px;
+                        cursor:pointer;
+                    }
+                }
+                .bussinesstip{
+                    height:50px;
+                    p{
+                        width:180px;
+                        height:50px;
+                        line-height:50px;
+                        float:left;
+                        text-indent:63px;
+                        font-size:14px;
+                    }
+                    .p1{
+                        background: url( "http://www.5lux.com/vendor/images/good/detail_desc/guaranteed_warranty.png") no-repeat 0px 0px;
+                    }
+                    .p2{
+                        background: url( "http://www.5lux.com/vendor/images/good/detail_desc/faith_enterprise.png") no-repeat 0px 0px;
+                    }
+                    .p3{
+                        background: url( "http://www.5lux.com/vendor/images/good/detail_desc/guarantee.png") no-repeat 0px 0px;
+                    }
+                }
+        }
+        .shareinfo{
+            height:40px;
+            line-height:40px;
+            float:left;
+            .pshare{
+                height:40px;
+                line-height:40px;
+                float:left;
+                span{
+                    float:left;
+                    width:40px;
+                    height:40px;
+                    background: url("http://www.5lux.com/vendor/images/good/detail_desc/share.png") no-repeat 17px 9px;
+                }
+            }
+            .pshoucang{
+                height:40px;
+                line-height:40px;
+                float:left;
+                span{
+                    float:left;
+                    width:40px;
+                    height:40px;
+                    background: url("http://www.5lux.com/vendor/images/good/detail_desc/collect.png") no-repeat 17px 9px;
+                }
+            }
+        }
+    }
+    .productDescrip{
+        width:1100px;
+        height:auto;
+        overflow:hidden;
+        .decripLeft{
+            width:200px;
+            float:left;
+            margin-right:30px;
+            h3{
+                height:34px;
+                width:198px;
+                border:1px solid #CCCCCC;
+                text-align: center;
+                line-height:34px;
+                color:#666666;
+                margin-bottom: 10px;
+            }
+            .hotrange{
+                width:198px;
+                border:1px solid #CCCCCC;
+                overflow: hidden;
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                .ptip{
+                    height:34px;
+                    line-height:34px;
+                    text-align: center;
+                    background: #bfa69a;
+                    color:white;
+                }
+                li{
+                    width:160px;
+                    height:260px;
+                    margin:0 auto;
+                    border-bottom: 1px solid #e5e5e5;
+                    .linum{
+                        padding-top:25px;
+                        height:30px;
+                        background: url("http://img550.5lux.com.cn/2016/11/21/rs/147971379779_30x30.png") no-repeat 0px 25px;
+                        color:white;
+                        line-height:20px;
+                        text-indent:4px;
+                    }
+                    .picbox{
+                        height:110px;
+                        overflow: hidden;
+                        text-align: center;
+                        img{
+                            height:100%;
+                        }
+                    }
+                    .pdesri{
+                        line-height:18px;
+                        color:#666666;
+                    }
+                    .pprice{
+                        height:26px;
+                        line-height:26px;
+                        color:#c8a985;
+                    }
+                }
+            }
+            .sameBrand{
+                width:198px;
+                border:1px solid #CCCCCC;
+                overflow: hidden;
+                padding-bottom: 30px;
+                .ptip{
+                    height:34px;
+                    line-height:34px;
+                    text-align: center;
+                    background: #bfa69a;
+                    color:white;
+                }
+                li{
+                    
+                    width:160px;
+                    height:260px;
+                    margin:0 auto;
+                    border-bottom: 1px solid #e5e5e5;
+                    .linum{
+                        padding-top:25px;
+                        height:30px;
+                  
+                        color:white;
+                        line-height:20px;
+                        text-indent:4px;
+                    }
+                    .picbox{
+                        height:110px;
+                        overflow: hidden;
+                        text-align: center;
+                        img{
+                            height:100%;
+                        }
+                    }
+                    .pdesri{
+                        line-height:18px;
+                        color:#666666;
+                    }
+                    .pprice{
+                        height:26px;
+                        line-height:26px;
+                        color:#c8a985;
+                    }
+                }
+            }
+        }
+        .descripRight{
+            width:770px;
+            height:auto;
+            float:left;
+            overflow:hidden;
+            h3{
+                height:34px;
+                width:768px;
+                border:1px solid #CCCCCC;
+                text-align: center;
+                line-height:34px;
+                color:#666666;
+                margin-bottom: 10px;
+            }
+            .rightToppic{
+                width:870px;
+                height:660px;
+                .div1{
+                    width:870px;
+                    height:310px;
+                    padding-bottom: 10px;
+                    overflow: hidden;
+                    float:left;
+                    img{
+                        width:870px;
+                        height:310px;
+                        transition: all 0.5s;
+                        overflow: hidden;
+                    }
+                    img:hover{
+                        transform: scale(1.3);
+                    }
+                    
+                }
+                .div2{
+                    width:430px;
+                    height:320px;
+                    float:left;
+                    margin-right:10px;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                .div3{
+                    width:430px;
+                    height:320px;
+                    float:left;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+            }
+        }
+    }
+}
+

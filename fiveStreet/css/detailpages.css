@@ -1,0 +1,918 @@
+@charset "UTF-8";
+body, ul, p, dl, ul, ol, dd, h1, h2, h3, h4, h5, h6, td, input, fieldset, textarea, option, legend {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px "微软雅黑";
+  color: #666666;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: 100;
+}
+
+a, input, select {
+  outline: none;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+}
+
+.foot {
+  width: 100%;
+  height: 605px;
+  border-top: 1px solid #c9c9c9;
+  background: url("http://img.5lux.com.cn/vendor/images/v30/footer_message_bg.jpg") no-repeat left bottom;
+}
+.foot .changeours {
+  width: 1210px;
+  height: 116px;
+  border-bottom: 1px solid #c9c9c9;
+  margin: 0 auto;
+}
+.foot .changeours ul {
+  width: 1210px;
+  height: 64px;
+  padding-top: 26px;
+}
+.foot .changeours ul li {
+  width: 242px;
+  height: 64px;
+  float: left;
+}
+.foot .changeours ul li .p1 {
+  height: 32px;
+  line-height: 38px;
+  text-indent: 70px;
+  color: black;
+}
+.foot .changeours ul li .p2 {
+  height: 14px;
+  line-height: 14px;
+  text-indent: 70px;
+}
+.foot .changeours ul li:nth-of-type(1) {
+  background: url("http://www.5lux.com/vendor/images/v30/footer_message01.jpg") no-repeat 0px 0px;
+}
+.foot .changeours ul li:nth-of-type(2) {
+  background: url("http://www.5lux.com/vendor/images/v30/footer_message02.jpg") no-repeat 0px 0px;
+}
+.foot .changeours ul li:nth-of-type(3) {
+  background: url("http://www.5lux.com/vendor/images/v30/footer_message03.jpg") no-repeat 0px 0px;
+}
+.foot .changeours ul li:nth-of-type(4) {
+  background: url("http://www.5lux.com/vendor/images/v30/footer_message04.jpg") no-repeat 0px 0px;
+}
+.foot .changeours ul li:nth-of-type(5) {
+  background: url("http://www.5lux.com/vendor/images/v30/footer_message05.jpg") no-repeat 0px 0px;
+}
+.foot .allways {
+  width: 1210px;
+  margin: 0 auto;
+  height: 285px;
+}
+.foot .allways ul {
+  width: 184px;
+  float: left;
+}
+.foot .allways ul p {
+  height: 64px;
+  line-height: 64px;
+  font-weight: bold;
+  color: black;
+  text-indent: 14px;
+}
+.foot .allways ul li {
+  height: 24px;
+  line-height: 24px;
+  text-indent: 14px;
+}
+.foot .allways ul li a:hover {
+  color: #c69c6d;
+}
+.foot .allways .code {
+  float: left;
+  width: 140px;
+}
+.foot .allways .code p {
+  height: 64px;
+  line-height: 64px;
+  font-weight: bold;
+  color: black;
+  text-indent: 14px;
+}
+.foot .allways .code img {
+  width: 79px;
+  height: 79px;
+  margin-left: 14px;
+}
+.foot .footerinfo {
+  height: 200px;
+  width: 1210px;
+  margin: 0 auto;
+}
+.foot .footerinfo .infolist1 {
+  height: 64px;
+  width: 370px;
+  margin: 0 auto;
+}
+.foot .footerinfo .infolist1 li {
+  height: 12px;
+  line-height: 12px;
+  padding: 0 9px;
+  float: left;
+  margin-top: 26px;
+  border-right: 2px solid white;
+}
+.foot .footerinfo .infolist1 li a {
+  color: white;
+  font-weight: bold;
+}
+.foot .footerinfo .infolist1 .noborder {
+  border-right: 0;
+}
+.foot .footerinfo .infolist2 {
+  height: 26px;
+  width: 816px;
+  margin: 0 auto;
+}
+.foot .footerinfo .infolist2 li {
+  float: left;
+  height: 12px;
+  line-height: 12px;
+  border-right: 2px solid white;
+  margin-top: 7px;
+  padding: 0 9px;
+}
+.foot .footerinfo .infolist2 li a {
+  color: white;
+}
+.foot .footerinfo .infolist2 .noborder {
+  border-right: 0;
+}
+.foot .footerinfo .div1 {
+  height: 26px;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+.foot .footerinfo .div2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.foot .footerinfo .div2 img {
+  margin: 0 2px;
+}
+
+.navbac {
+  width: 100%;
+  background: #151415;
+}
+
+.nav {
+  height: 40px;
+  width: 1210px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav .navlist {
+  width: 950px;
+  height: 38px;
+  float: left;
+}
+
+.navlist > li {
+  float: left;
+  height: 38px;
+  line-height: 40px;
+  width: 82px;
+  text-align: center;
+}
+
+.navlist > li a {
+  color: #c8a985;
+}
+
+.navlist > li a:hover {
+  color: white;
+}
+
+.navlist .sortclass {
+  width: 130px;
+  background: #cf0101;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+
+.navlist .lilast {
+  width: 82px;
+  text-align: center;
+}
+
+.navlist .lilast a {
+  float: left;
+}
+
+.navlist .lilast a span {
+  float: left;
+  width: 19px;
+  height: 26px;
+  background: url(../img/share02.png) no-repeat -58px -176px;
+  margin-left: 10px;
+  margin-top: 7px;
+  margin-right: 5px;
+}
+
+.navlist .lilast a:hover span {
+  background: url(../img/share02.png) no-repeat -366px -259px;
+}
+
+.nav .slidelist {
+  float: right;
+  height: 38px;
+}
+
+.nav .slidelist li {
+  width: 42px;
+  height: 38px;
+  float: left;
+  line-height: 38px;
+  color: white;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.nav .slidelist li span {
+  float: left;
+  width: 28px;
+  height: 38px;
+  margin-right: 10px;
+}
+
+.slidelist .slideleft span {
+  background: url(../img/share02.png) no-repeat -238px -66px;
+}
+
+.slidelist .slidecenter span {
+  background: url(../img/share02.png) no-repeat -298px -66px;
+}
+
+.slidelist .slideright span {
+  background: url(../img/share02.png) no-repeat -356px -66px;
+}
+
+.selectbac {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  width: 130px;
+  height: 540px;
+  background: white;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  z-index: 100;
+  display: none;
+}
+
+.selectlist {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  width: 130px;
+  height: 540px;
+  z-index: 100;
+}
+.selectlist li {
+  height: 36px;
+  color: #1c1a1a;
+  line-height: 36px;
+  text-align: center;
+  position: relative;
+}
+.selectlist li span {
+  float: right;
+  width: 8px;
+  height: 16px;
+  background: url(../img/share02.png) no-repeat -308px -41px;
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  display: none;
+}
+.selectlist li:nth-of-type(1) {
+  background: url(../img/brand_category1.png) no-repeat -5px -1px;
+}
+.selectlist li:nth-of-type(2) {
+  background: url(../img/brand_category1.png) no-repeat -5px -34px;
+}
+.selectlist li:nth-of-type(3) {
+  background: url(../img/brand_category1.png) no-repeat -5px -66px;
+}
+.selectlist li:nth-of-type(4) {
+  background: url(../img/brand_category1.png) no-repeat -5px -98px;
+}
+.selectlist li:nth-of-type(5) {
+  background: url(../img/brand_category1.png) no-repeat -5px -130px;
+}
+.selectlist li:nth-of-type(6) {
+  background: url(../img/brand_category1.png) no-repeat -5px -162px;
+}
+.selectlist li:nth-of-type(7) {
+  background: url(../img/brand_category1.png) no-repeat -5px -194px;
+}
+.selectlist li:nth-of-type(8) {
+  background: url(../img/brand_category1.png) no-repeat -5px -226px;
+}
+.selectlist li:nth-of-type(9) {
+  background: url(../img/brand_category1.png) no-repeat -5px -258px;
+}
+.selectlist li:nth-of-type(10) {
+  background: url(../img/brand_category1.png) no-repeat -5px -290px;
+}
+.selectlist li:nth-of-type(11) {
+  background: url(../img/brand_category1.png) no-repeat -5px -322px;
+}
+.selectlist li:nth-of-type(12) {
+  background: url(../img/brand_category1.png) no-repeat -5px -355px;
+}
+.selectlist li:nth-of-type(13) {
+  background: url(../img/brand_category1.png) no-repeat -5px -388px;
+}
+.selectlist li:nth-of-type(14) {
+  background: url(../img/brand_category1.png) no-repeat -5px -420px;
+}
+.selectlist li:nth-of-type(15) {
+  background: url(../img/brand_category1.png) no-repeat -5px -456px;
+}
+.selectlist li:hover {
+  background-color: white;
+  background-image: url(../img/brand_category2.png);
+  color: #c69c6d;
+}
+.selectlist li:hover span {
+  display: block;
+}
+
+.banner {
+  width: 1100px;
+  height: auto;
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+.banner .shopinfo {
+  width: 1100px;
+  height: 640px;
+}
+.banner .shopinfo .shopinfoleft {
+  width: 540px;
+  height: 640px;
+  float: left;
+  position: relative;
+}
+.banner .shopinfo .shopinfoleft .macleft {
+  width: 480px;
+  height: 480px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  border: 1px solid #CCCCCC;
+  cursor: crosshair;
+}
+.banner .shopinfo .shopinfoleft .macleft .drag {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 0px 4px black;
+  display: none;
+}
+.banner .shopinfo .shopinfoleft .macleft img {
+  width: 100%;
+  height: 100%;
+}
+.banner .shopinfo .shopinfoleft .macright {
+  width: 0px;
+  height: 0px;
+  border: 1px solid #CCCCCC;
+  box-shadow: 0px 0px 5px #000;
+  position: absolute;
+  left: 245px;
+  top: 245px;
+  overflow: hidden;
+  z-index: 100;
+}
+.banner .shopinfo .shopinfoleft .macright img {
+  width: 480px;
+  height: 480px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.banner .shopinfo .shopinfoleft .piclist {
+  width: 480px;
+  height: 85px;
+  position: absolute;
+  top: 520px;
+  left: 0px;
+}
+.banner .shopinfo .shopinfoleft .piclist .picwrap {
+  width: 460px;
+  overflow: hidden;
+  height: 85px;
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+.banner .shopinfo .shopinfoleft .piclist .picwrap .divslide {
+  width: 1500px;
+  height: 85px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.banner .shopinfo .shopinfoleft .piclist .picwrap .divslide li {
+  width: 83px;
+  height: 83px;
+  border: 1px solid #CCCCCC;
+  float: left;
+  margin-right: 9px;
+}
+.banner .shopinfo .shopinfoleft .piclist .picwrap .divslide li img {
+  width: 100%;
+  height: 100%;
+}
+.banner .shopinfo .shopinfoleft .piclist .spanleft {
+  float: left;
+  width: 10px;
+  height: 85px;
+  text-align: center;
+  line-height: 84px;
+  background: #f2f2f2;
+  color: #838383;
+  cursor: pointer;
+}
+.banner .shopinfo .shopinfoleft .piclist .spanright {
+  float: right;
+  width: 10px;
+  height: 85px;
+  text-align: center;
+  line-height: 84px;
+  background: #f2f2f2;
+  color: #838383;
+  cursor: pointer;
+}
+.banner .shopinfo .shopinforight {
+  float: left;
+  width: 560px;
+  height: 640px;
+  margin-top: 10px;
+}
+.banner .shopinfo .shopinforight .goodsname {
+  height: 28px;
+  line-height: 28px;
+  font-size: 18px;
+  color: #a59999;
+}
+.banner .shopinfo .shopinforight .goodsnametip {
+  height: 28px;
+  line-height: 28px;
+  font-size: 16px;
+  color: #000000;
+}
+.banner .shopinfo .shopinforight .goodshuohao {
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #999999;
+  border-bottom: 1px dashed #bfbfbf;
+}
+.banner .shopinfo .shopinforight .goodsprice {
+  height: 64px;
+  border-bottom: 1px dashed #bfbfbf;
+}
+.banner .shopinfo .shopinforight .goodsprice .price1 {
+  float: left;
+  line-height: 56px;
+  font-size: 20px;
+  color: #c8a985;
+}
+.banner .shopinfo .shopinforight .goodsprice .price2 {
+  float: left;
+  line-height: 60px;
+  font-size: 12px;
+  color: #999999;
+  margin-left: 10px;
+  text-decoration: line-through;
+}
+.banner .shopinfo .shopinforight .goodsprice .joinpart {
+  float: left;
+  width: 80px;
+  height: 20px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  background: #c8a985;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+.banner .shopinfo .shopinforight .activs {
+  height: 35px;
+  border-bottom: 1px dashed #bfbfbf;
+  line-height: 34px;
+}
+.banner .shopinfo .shopinforight .activs .spanleft {
+  float: left;
+  width: 92px;
+  color: black;
+  font-weight: bold;
+  text-indent: 14px;
+}
+.banner .shopinfo .shopinforight .activs .span2 {
+  float: left;
+  color: #c8a985;
+}
+.banner .shopinfo .shopinforight .goodssize {
+  height: 60px;
+  overflow: hidden;
+}
+.banner .shopinfo .shopinforight .goodssize .spanleft {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  width: 92px;
+  color: black;
+  font-weight: bold;
+  text-indent: 14px;
+}
+.banner .shopinfo .shopinforight .goodssize .sizelist {
+  height: 32px;
+  float: left;
+  margin-top: 14px;
+}
+.banner .shopinfo .shopinforight .goodssize .sizelist li {
+  width: 32px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  margin-right: 8px;
+}
+.banner .shopinfo .shopinforight .goodscolor {
+  height: 60px;
+  overflow: hidden;
+}
+.banner .shopinfo .shopinforight .goodscolor .spanleft {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  width: 92px;
+  color: black;
+  font-weight: bold;
+  text-indent: 14px;
+}
+.banner .shopinfo .shopinforight .goodscolor .colorlist {
+  height: 32px;
+  float: left;
+  margin-top: 14px;
+}
+.banner .shopinfo .shopinforight .goodscolor .colorlist li {
+  width: 60px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+  margin-right: 8px;
+}
+.banner .shopinfo .shopinforight .goodsnum {
+  height: 60px;
+  border-bottom: 1px dashed #bfbfbf;
+}
+.banner .shopinfo .shopinforight .goodsnum .spanleft {
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  width: 92px;
+  color: black;
+  font-weight: bold;
+  text-indent: 14px;
+}
+.banner .shopinfo .shopinforight .goodsnum .numbox {
+  width: 96px;
+  height: 22px;
+  float: left;
+  margin-top: 19px;
+}
+.banner .shopinfo .shopinforight .goodsnum .numbox .numminus {
+  float: left;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  background: #c8a985;
+}
+.banner .shopinfo .shopinforight .goodsnum .numbox .mygoodsnum {
+  float: left;
+  width: 44px;
+  height: 20px;
+  border: 1px solid #CCCCCC;
+  line-height: 20px;
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.banner .shopinfo .shopinforight .goodsnum .numbox .numadd {
+  float: left;
+  width: 22px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  background: #c8a985;
+}
+.banner .shopinfo .shopinforight .sendplace p {
+  height: 24px;
+  line-height: 24px;
+  color: #999999;
+}
+.banner .shopinfo .shopinforight .sendplace p .span1 {
+  float: left;
+  width: 92px;
+  text-indent: 14px;
+  height: 24px;
+  line-height: 24px;
+}
+.banner .shopinfo .shopinforight .sendplace p .span2 {
+  float: left;
+  height: 24px;
+  line-height: 24px;
+}
+.banner .shopinfo .shopinforight .sendplace p .span2 a {
+  text-decoration: underline;
+  color: #c8a985;
+}
+.banner .shopinfo .shopinforight .buycli {
+  height: 80px;
+}
+.banner .shopinfo .shopinforight .buycli .buy {
+  width: 118px;
+  height: 33px;
+  border: 1px solid #c8a985;
+  text-align: center;
+  line-height: 32px;
+  color: #c8a985;
+  float: left;
+  margin-right: 10px;
+  margin-top: 13px;
+  cursor: pointer;
+  margin-left: 14px;
+}
+.banner .shopinfo .shopinforight .buycli .joinshopcar {
+  width: 120px;
+  height: 35px;
+  background: #c8a985;
+  text-align: center;
+  line-height: 34px;
+  color: white;
+  float: left;
+  margin-top: 13px;
+  cursor: pointer;
+}
+.banner .shopinfo .shopinforight .bussinesstip {
+  height: 50px;
+}
+.banner .shopinfo .shopinforight .bussinesstip p {
+  width: 180px;
+  height: 50px;
+  line-height: 50px;
+  float: left;
+  text-indent: 63px;
+  font-size: 14px;
+}
+.banner .shopinfo .shopinforight .bussinesstip .p1 {
+  background: url("http://www.5lux.com/vendor/images/good/detail_desc/guaranteed_warranty.png") no-repeat 0px 0px;
+}
+.banner .shopinfo .shopinforight .bussinesstip .p2 {
+  background: url("http://www.5lux.com/vendor/images/good/detail_desc/faith_enterprise.png") no-repeat 0px 0px;
+}
+.banner .shopinfo .shopinforight .bussinesstip .p3 {
+  background: url("http://www.5lux.com/vendor/images/good/detail_desc/guarantee.png") no-repeat 0px 0px;
+}
+.banner .shopinfo .shareinfo {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+.banner .shopinfo .shareinfo .pshare {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+.banner .shopinfo .shareinfo .pshare span {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url("http://www.5lux.com/vendor/images/good/detail_desc/share.png") no-repeat 17px 9px;
+}
+.banner .shopinfo .shareinfo .pshoucang {
+  height: 40px;
+  line-height: 40px;
+  float: left;
+}
+.banner .shopinfo .shareinfo .pshoucang span {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: url("http://www.5lux.com/vendor/images/good/detail_desc/collect.png") no-repeat 17px 9px;
+}
+.banner .productDescrip {
+  width: 1100px;
+  height: auto;
+  overflow: hidden;
+}
+.banner .productDescrip .decripLeft {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.banner .productDescrip .decripLeft h3 {
+  height: 34px;
+  width: 198px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  line-height: 34px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+.banner .productDescrip .decripLeft .hotrange {
+  width: 198px;
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.banner .productDescrip .decripLeft .hotrange .ptip {
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  background: #bfa69a;
+  color: white;
+}
+.banner .productDescrip .decripLeft .hotrange li {
+  width: 160px;
+  height: 260px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e5e5e5;
+}
+.banner .productDescrip .decripLeft .hotrange li .linum {
+  padding-top: 25px;
+  height: 30px;
+  background: url("http://img550.5lux.com.cn/2016/11/21/rs/147971379779_30x30.png") no-repeat 0px 25px;
+  color: white;
+  line-height: 20px;
+  text-indent: 4px;
+}
+.banner .productDescrip .decripLeft .hotrange li .picbox {
+  height: 110px;
+  overflow: hidden;
+  text-align: center;
+}
+.banner .productDescrip .decripLeft .hotrange li .picbox img {
+  height: 100%;
+}
+.banner .productDescrip .decripLeft .hotrange li .pdesri {
+  line-height: 18px;
+  color: #666666;
+}
+.banner .productDescrip .decripLeft .hotrange li .pprice {
+  height: 26px;
+  line-height: 26px;
+  color: #c8a985;
+}
+.banner .productDescrip .decripLeft .sameBrand {
+  width: 198px;
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+.banner .productDescrip .decripLeft .sameBrand .ptip {
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  background: #bfa69a;
+  color: white;
+}
+.banner .productDescrip .decripLeft .sameBrand li {
+  width: 160px;
+  height: 260px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e5e5e5;
+}
+.banner .productDescrip .decripLeft .sameBrand li .linum {
+  padding-top: 25px;
+  height: 30px;
+  color: white;
+  line-height: 20px;
+  text-indent: 4px;
+}
+.banner .productDescrip .decripLeft .sameBrand li .picbox {
+  height: 110px;
+  overflow: hidden;
+  text-align: center;
+}
+.banner .productDescrip .decripLeft .sameBrand li .picbox img {
+  height: 100%;
+}
+.banner .productDescrip .decripLeft .sameBrand li .pdesri {
+  line-height: 18px;
+  color: #666666;
+}
+.banner .productDescrip .decripLeft .sameBrand li .pprice {
+  height: 26px;
+  line-height: 26px;
+  color: #c8a985;
+}
+.banner .productDescrip .descripRight {
+  width: 770px;
+  height: auto;
+  float: left;
+  overflow: hidden;
+}
+.banner .productDescrip .descripRight h3 {
+  height: 34px;
+  width: 768px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+  line-height: 34px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+.banner .productDescrip .descripRight .rightToppic {
+  width: 870px;
+  height: 660px;
+}
+.banner .productDescrip .descripRight .rightToppic .div1 {
+  width: 870px;
+  height: 310px;
+  padding-bottom: 10px;
+  overflow: hidden;
+  float: left;
+}
+.banner .productDescrip .descripRight .rightToppic .div1 img {
+  width: 870px;
+  height: 310px;
+  transition: all 0.5s;
+  overflow: hidden;
+}
+.banner .productDescrip .descripRight .rightToppic .div1 img:hover {
+  transform: scale(1.3);
+}
+.banner .productDescrip .descripRight .rightToppic .div2 {
+  width: 430px;
+  height: 320px;
+  float: left;
+  margin-right: 10px;
+}
+.banner .productDescrip .descripRight .rightToppic .div2 img {
+  width: 100%;
+  height: 100%;
+}
+.banner .productDescrip .descripRight .rightToppic .div3 {
+  width: 430px;
+  height: 320px;
+  float: left;
+}
+.banner .productDescrip .descripRight .rightToppic .div3 img {
+  width: 100%;
+  height: 100%;
+}

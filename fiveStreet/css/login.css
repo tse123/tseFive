@@ -1,0 +1,145 @@
+.headerWrap {
+  width: 100%;
+  height: 100px;
+}
+.headerWrap .header {
+  width: 1210px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.headerWrap .header img {
+  height: 88px;
+  float: left;
+  margin-top: 12px;
+}
+.headerWrap .header .pleft {
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  font-size: 18px;
+  color: #949292;
+  margin-left: 10px;
+}
+.headerWrap .header .pright {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 70px;
+  font-size: 14px;
+  color: black;
+  text-indent: 2px;
+}
+.headerWrap .header .pright span {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: url(../img/brandstore_share.png) no-repeat -354px -345px;
+  margin-top: 7px;
+}
+
+.banner {
+  width: 100%;
+  height: 560px;
+  background: url("http://img.5lux.com.cn/vendor/images/5lux/login/bai-bg.jpg") no-repeat 0px 0px;
+  overflow: hidden;
+  background-size: 100% 100%;
+}
+.banner .bannerLeft {
+  width: 705px;
+  height: 680px;
+  float: left;
+  background: url("http://www.5lux.com/vendor/images/5lux/login/baijin-icon.png") no-repeat 0px 0px;
+}
+.banner .bannerRight {
+  width: 450px;
+  height: 500px;
+  background: white;
+  float: left;
+  box-shadow: 0px 0px 2px white;
+  margin-top: 44px;
+}
+.banner .bannerRight h2 {
+  width: 300px;
+  height: 80px;
+  margin: 0 auto;
+  line-height: 120px;
+  font-size: 14px;
+}
+.banner .bannerRight form {
+  width: 300px;
+  height: 310px;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  margin: 0 auto;
+}
+.banner .bannerRight form input {
+  width: 250px;
+  height: 32px;
+  border: 1px solid #CCCCCC;
+  text-indent: 38px;
+}
+.banner .bannerRight form .userinp {
+  background: url("http://www.5lux.com/vendor/images/5lux/login/v2/login_reg_input_user_bg.jpg") no-repeat 0px 0px;
+  float: left;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+.banner .bannerRight form .userpas {
+  background: url("http://www.5lux.com/vendor/images/5lux/login/v2/login_reg_input_pw_bg.jpg") no-repeat 0px 0px;
+  float: left;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+.banner .bannerRight form .check {
+  width: 254px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+.banner .bannerRight form .check input {
+  width: 14px;
+  height: 14px;
+  float: left;
+  margin-top: 8px;
+  margin-right: 4px;
+}
+.banner .bannerRight form .check a {
+  float: right;
+  color: #a78668;
+  text-decoration: underline;
+}
+.banner .bannerRight form .cli {
+  width: 250px;
+  height: 30px;
+  background: #cf0101;
+  text-align: center;
+  line-height: 30px;
+  float: left;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+.banner .bannerRight form .nocount {
+  float: right;
+  height: 60px;
+  line-height: 60px;
+  text-align: right;
+}
+.banner .bannerRight form .nocount a {
+  color: #a78668;
+  text-decoration: underline;
+}
+.banner .bannerRight .part {
+  width: 260px;
+  height: 60px;
+  margin: 14px auto 0;
+}
+.banner .bannerRight .part p {
+  height: 30px;
+  line-height: 30px;
+}
