@@ -48,8 +48,7 @@ require(["config"], function () {
 			}, function () {
 				$(this).stop().animate({ "bottom": "-110px" }, 300);
 			});
-			//			图片懒加载功能块
-			co.layout(".img-lay");
+
 			//			co.layout(".brandbac");
 			//			热门旗舰店,购物中心引用模板文件创建
 			$.ajax({
@@ -136,6 +135,8 @@ require(["config"], function () {
 			}, function () {
 				$(this).find(".dswrap").stop().animate({ "top": "0px" }, 300);
 			});
+			//			图片懒加载功能块
+			co.layout(".img-lay");
 		});
 	});
 });

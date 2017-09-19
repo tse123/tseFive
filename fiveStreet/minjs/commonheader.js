@@ -62,6 +62,10 @@ define(["jquery"], function ($) {
 						$(".inp").val(target.innerText);
 						$(".selectbox").html("");
 					});
+					//						$("body").not(".selectbox").on("click",function(){
+					//							$(".selectbox").html("");
+					//							$(".numlist").hide();
+					//						});
 				}
 			});
 		});

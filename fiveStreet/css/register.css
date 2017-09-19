@@ -1,0 +1,337 @@
+.headerWrap {
+  width: 100%;
+  height: 100px;
+}
+.headerWrap .header {
+  width: 1210px;
+  height: 100px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.headerWrap .header img {
+  height: 88px;
+  float: left;
+  margin-top: 12px;
+}
+.headerWrap .header .pleft {
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  font-size: 18px;
+  color: #949292;
+  margin-left: 10px;
+}
+.headerWrap .header .pright {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 70px;
+  font-size: 14px;
+  color: black;
+  text-indent: 2px;
+}
+.headerWrap .header .pright span {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: url(../img/brandstore_share.png) no-repeat -354px -345px;
+  margin-top: 7px;
+}
+
+.bannerWrap {
+  width: 100%;
+  height: 680px;
+  background: #010214 url("http://img.5lux.com.cn/vendor/images/5lux/login/zhuce-bg.jpg") no-repeat 0px 0px;
+}
+.bannerWrap .banner {
+  width: 1210px;
+  height: 680px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.bannerWrap .banner img {
+  float: left;
+}
+.bannerWrap .banner .register {
+  width: 450px;
+  height: 590px;
+  float: left;
+  background: white;
+  margin-top: 46px;
+  box-shadow: 0px 0px 5px #888888;
+  position: relative;
+}
+.bannerWrap .banner .register .regtop {
+  width: 112px;
+  height: 29px;
+  position: absolute;
+  top: 15px;
+  left: 59px;
+  background: black;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  line-height: 28px;
+  color: white;
+  font-weight: bold;
+  text-indent: 20px;
+}
+.bannerWrap .banner .register form {
+  width: 332px;
+  height: 440px;
+  margin: 45px auto 0;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+.bannerWrap .banner .register form label {
+  display: block;
+  width: 100%;
+  height: 66px;
+  position: relative;
+}
+.bannerWrap .banner .register form label .spanleft {
+  float: left;
+  width: 72px;
+  height: 34px;
+  line-height: 34px;
+  text-align: right;
+  color: black;
+}
+.bannerWrap .banner .register form label input {
+  width: 210px;
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-left: 5px;
+  text-indent: 10px;
+}
+.bannerWrap .banner .register form .phonenum {
+  padding-top: 32px;
+  position: relative;
+}
+.bannerWrap .banner .register form .phonenum .getcode {
+  width: 70px;
+  height: 25px;
+  border: 1px solid #CCCCCC;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  left: 290px;
+  top: 35px;
+}
+.bannerWrap .banner .register form .phonenum .getcode:hover {
+  background: #a78668;
+  color: white;
+}
+.bannerWrap .banner .register form .phonenum .numlist {
+  width: 210px;
+  border: 1px solid #CCCCCC;
+  position: absolute;
+  left: 77px;
+  top: 65px;
+  z-index: 100;
+  display: none;
+}
+.bannerWrap .banner .register form .phonenum .numlist li {
+  width: 210px;
+  height: 20px;
+  line-height: 20px;
+  text-indent: 10px;
+  color: black;
+  font-weight: bold;
+  background: white;
+}
+.bannerWrap .banner .register form .phonenum .numlist li:hover {
+  background: aliceblue;
+}
+.bannerWrap .banner .register form .phonenum .numwarn {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  color: #cf0101;
+  position: absolute;
+  left: 77px;
+  top: 65px;
+  display: none;
+}
+.bannerWrap .banner .register form .checkcode {
+  position: relative;
+}
+.bannerWrap .banner .register form .checkcode .checkcodewarn {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  color: #cf0101;
+  position: absolute;
+  left: 77px;
+  top: 33px;
+}
+.bannerWrap .banner .register form .passw .paswarn {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  color: #cf0101;
+  position: absolute;
+  left: 77px;
+  top: 33px;
+}
+.bannerWrap .banner .register form .surepassw .surepaswarn {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  color: #cf0101;
+  position: absolute;
+  left: 77px;
+  top: 33px;
+}
+.bannerWrap .banner .register form .check {
+  text-indent: 75px;
+  height: 40px;
+}
+.bannerWrap .banner .register form .check .checksure {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 55px;
+  top: 3px;
+}
+.bannerWrap .banner .register form .clibtn {
+  width: 210px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  color: white;
+  background: #cf0101;
+  margin-left: 77px;
+  cursor: pointer;
+}
+.bannerWrap .banner .register form .logintip {
+  width: 120px;
+  height: 20px;
+  line-height: 20px;
+  color: black;
+  margin-left: 170px;
+  margin-top: 32px;
+}
+.bannerWrap .banner .register form .logintip a {
+  color: #a78668;
+  text-decoration: underline;
+}
+.bannerWrap .banner .register .regbottom {
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: black;
+}
+.bannerWrap .banner .register .regbottom span {
+  color: #ff0000;
+}
+
+.alertWrap {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+.alertWrap .alertdrag {
+  width: 600px;
+  height: 500px;
+  background: white;
+  box-shadow: 0px 0px 3px #888888;
+  margin: 60px auto 0;
+}
+.alertWrap .alertdrag .alerttop {
+  padding-top: 26px;
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  border-bottom: 1px solid #d9d9da;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-indent: 60px;
+  background: url(../img/alertd.png) no-repeat 27px 32px;
+  position: relative;
+}
+.alertWrap .alertdrag .alerttop .alertcancle {
+  width: 20px;
+  height: 20px;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 68px;
+  top: 14px;
+  cursor: pointer;
+}
+.alertWrap .alertdrag .checkinfo {
+  height: 350px;
+  border-bottom: 1px solid #d9d9da;
+}
+.alertWrap .alertdrag .checkinfo label {
+  display: block;
+  height: 42px;
+  width: 430px;
+  margin-left: 110px;
+}
+.alertWrap .alertdrag .checkinfo label img {
+  margin-left: 5px;
+  height: 32px;
+  float: left;
+}
+.alertWrap .alertdrag .checkinfo label a {
+  cursor: pointer;
+  float: left;
+  height: 32px;
+  line-height: 32px;
+  margin-left: 10px;
+}
+.alertWrap .alertdrag .checkinfo label .span-left {
+  float: left;
+  width: 70px;
+  text-align: right;
+  height: 34px;
+  line-height: 34px;
+  color: black;
+}
+.alertWrap .alertdrag .checkinfo label input {
+  width: 210px;
+  height: 32px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin-left: 5px;
+  text-indent: 10px;
+  line-height: 32px;
+}
+.alertWrap .alertdrag .checkinfo label .spanright {
+  float: left;
+  height: 34px;
+  line-height: 34px;
+  margin-left: 5px;
+}
+.alertWrap .alertdrag .checkinfo label:nth-of-type(1) {
+  margin-top: 20px;
+}
+.alertWrap .alertdrag .checkinfo .getmessage {
+  width: 210px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #cf0101;
+  color: white;
+  font-size: 14px;
+  margin-left: 185px;
+  margin-top: 45px;
+  cursor: pointer;
+}
+.alertWrap .alertdrag .checkinfo .messagetip {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  color: #e81b17;
+}

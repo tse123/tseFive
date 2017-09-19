@@ -1,0 +1,12 @@
+{
+  "name": "fiveStreet",
+  "version": "1.0.0",
+  "description": "This is for fiveStreet",
+  "author": {
+    "name": "tse",
+    "email": "1315103484@qq.com"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}

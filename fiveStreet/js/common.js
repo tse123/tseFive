@@ -170,6 +170,24 @@ define(["jquery"],function($){
 					$this.parent().find(".bagslogolist").stop().animate({"left":-$this.index*220});
 				}
 			});
-		}
+		},
+		Cookie:{
+				set: function(name, value, d, path) {
+					var date = new Date();
+					date.setDate(date.getDate() + d);
+					document.cookie = name + "=" + value + ";" + "expires=" + date + ";" + "path=" + path + ";"
+				},
+				get: function(name) {
+					var list = document.cookie.split("; ");
+					for(var i = 0; i < list.length; i++) {
+						cooklist = list[i].split("=");
+						if(name == cooklist[0]) {
+							return cooklist[1];
+						}
+					}
+					return null;
+				}
+			}
+		
 	}
 });

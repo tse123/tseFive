@@ -7,6 +7,7 @@ requirejs.config({
 		"common": "common",
 		"commonheader": "commonheader",
 		"commonfooter": "commonfooter",
-		"index": "index"
+		"index": "index",
+		"register": "register"
 	}
 });
